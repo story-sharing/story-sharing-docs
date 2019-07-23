@@ -13,3 +13,4 @@
 * Creator(s): The user(s) who made the story
 * Series: an ordered list of related/episodic stories
 * Studio: the section in an app where creators construct stories
+* Group: a group has a name, icon and a list of users who can see stories
