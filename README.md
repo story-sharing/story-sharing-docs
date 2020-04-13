@@ -21,12 +21,14 @@
 * stories: a collection of public stories
   * createdAt: timestamp the story was created
   * title: name of the story
+  * audio: link to audio
   * owners: a list of user IDs who created the story
-  * scenes: a list of scenes in the story
+  * scenes: an optional list of scenes in the story
+    * start: seconds into story of scene
     * backgroundColour: a hex colour for the background of the UI
     * title: name of the scene
-    * audio: link to audio
-    * text: text representation of audio
+    * text: text in the scence
+    * image: link to image
 * groups: a collection of private groups
   * createdAt: timestamp the group was created
   * title: name of the group
@@ -40,6 +42,7 @@
       * photoURL: link to user photo
       * email: email of user
    * stories: a collection of private stories
+     * [see stories]
 * users: a collection of user accounts
   * admin: boolean to say if admin
   * username: name of user
