@@ -23,12 +23,13 @@
   * title: name of the story
   * audio: link to audio
   * owners: a list of user IDs who created the story
+  * image: link to image
   * scenes: an optional list of scenes in the story
     * start: seconds into story of scene
-    * backgroundColour: a hex colour for the background of the UI
+    * backgroundColour: a hex colour for the background of the scene
     * title: name of the scene
     * text: text in the scence
-    * image: link to image
+    * image: link to image of the scene
 * groups: a collection of private groups
   * createdAt: timestamp the group was created
   * title: name of the group
